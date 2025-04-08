@@ -1,0 +1,14 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "commentary_auto"
+		"connections"
+		{
+			"OnCommentaryNewGame" "compmode,Enable,,0,-1"
+			"OnCommentaryNewGame" "compmode,AddOutput,classname move_rope,0,-1"
+			"OnCommentaryMidGame" "compmode,Enable,,0,-1"
+			"OnCommentaryMidGame" "compmode,AddOutput,classname move_rope,0,-1"
+		}
+	}
+}
